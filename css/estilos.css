@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #04BF20;
 }
 .nav5:hover {
-  color: #F50A00;
+  color: #04BF20;
 }
 /*--------------------------------------*/
 /*Header */
@@ -202,24 +202,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
  .productos article:nth-child(1) {
-   /*background-image: url();*/
-   background-color: blue;
+   background-image: url('../media/1.png');
  }
  .productos article:nth-child(2) {
-   /*background-image: url();*/
-   background-color: blue;
+   background-image: url('../media/2.png')
  }
  .productos article:nth-child(3) {
-   /*background-image: url();*/
-   background-color: green;
+   background-image: url('../media/3.png');
  }
  .productos article:nth-child(4) {
-   /*background-image: url();*/
-   background-color: orange;
- }
- .productos article:nth-child(5) {
-   /*background-image: url();*/
-   background-color: pink;
+   background-image: url('../media/4.png');
  }
 
  .productos .informacion-producto {
@@ -243,6 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .productos .descripcion {
   font-size: 22px;
+  width: 30%;
 }
 
 .productos .precio {
@@ -274,7 +267,12 @@ h1, h2, h3, h4, h5, h6 {
 /*Footer */
 /*--------------------------------------*/
 
-.footer .texto-naranja {
+.footer {
+  background: rgb(23,126,128);
+  background: linear-gradient(90deg, rgba(23,126,128,1) 0%, rgba(11,62,63,1) 100%);
+}
+
+.footer .texto-blanco {
   text-transform: uppercase;
   font-size: 60px;
   letter-spacing: 2px;
@@ -307,17 +305,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 20px;
 }
 
-.footer .github i { color: purple}
-.footer .LinkedIn i { color: violet}
-.footer .Instagram i { color: pink}
-.footer .Twitter i { color: blue}
-.footer .TikTok i { color: red}
+.footer .github i { color: black}
+.footer .LinkedIn i { color: #0E76A8}
+.footer .Instagram i { color: #DD2A7B}
+.footer .Twitter i { color: #00ACEE}
+.footer .TikTok i { color: #69C9D0}
 
-.footer .github:hover { background: purple}
-.footer .LinkedIn:hover { background: violet}
-.footer .Instagram:hover { background: pink}
-.footer .Twitter:hover { background: blue}
-.footer .TikTok:hover { background: red}
+.footer .github:hover { background: black}
+.footer .LinkedIn:hover { background: #0E76A8}
+.footer .Instagram:hover { background: #515BD4}
+.footer .Twitter:hover { background: #00ACEE}
+.footer .TikTok:hover { background: #EE1D52}
 
 .footer .github:hover i { color: #fff}
 .footer .LinkedIn:hover i { color: #fff}
