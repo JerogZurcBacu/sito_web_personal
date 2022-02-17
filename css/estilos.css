@@ -338,6 +338,26 @@ h1, h2, h3, h4, h5, h6 {
   .precio {
     font-size: 23px;
   }
+  .productos article {
+    background-position: center;
+    background-size: cover;
+  }
+  .productos article:nth-child(1) {
+    background-image: url('../media/m1.png');
+  }
+  .productos article:nth-child(2) {
+    background-image: url('../media/m2.png')
+  }
+  .productos article:nth-child(3) {
+    background-image: url('../media/m3.png');
+  }
+  .productos article:nth-child(4) {
+    background-image: url('../media/m4.png');
+  }
+  .productos .informacion-producto {
+    position: absolute;
+    top: 55%;
+  }
   .footer h2 {
     font-size: 15px;
   }
@@ -355,10 +375,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 576px) {
   .header .titulo {
     font-size: 60px;
-  }
-  .informacion-producto {
-    position: absolute;
-    top: 70%;
   }
   .fp-controlArrow.fp-next {
     left: 100px;
@@ -399,6 +415,7 @@ h1, h2, h3, h4, h5, h6 {
   .bio .informacion-producto {
     margin:  -280px 0 0 10px;
     width: 25%;
+    top: 70%;
   }
   .bio .modelo {
     font-size: 35px;
@@ -406,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .bio .descripcion {
     font-size: 20px;
-    width: 90%;
+    width: 80%;
   }
 
   .productos .modelo {
@@ -418,5 +435,44 @@ h1, h2, h3, h4, h5, h6 {
   .footer .redes-sociales a {
     width:  50px;
     height: 50px;
+  }
+  .productos article {
+    background-position: center;
+    background-size: contain;
+  }
+  .productos article:nth-child(1) {
+    background-image: url('../media/m1.png');
+  }
+  .productos article:nth-child(2) {
+    background-image: url('../media/m2.png')
+  }
+  .productos article:nth-child(3) {
+    background-image: url('../media/m3.png');
+  }
+  .productos article:nth-child(4) {
+    background-image: url('../media/m4.png');
+  }
+  .productos .informacion-producto {
+    position: absolute;
+    top: 55%;
+  }
+  .productos .descripcion {
+    font-size: 22px;
+    width: 60%;
+  }
+  .productos .modelo {
+    font-size: 40px;
+  }
+  .footer .redes-sociales a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #FFF;
+    color: #30313A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0 5px;
   }
 }
