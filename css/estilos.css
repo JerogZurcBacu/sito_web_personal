@@ -367,7 +367,15 @@ h1, h2, h3, h4, h5, h6 {
     left: 25px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
+  .header {
+    background-image: none;
+    background-color: black;
+  }
+  .header .contenedor-titulo {
+    width: 80%;
+    margin: auto;
+  }
   .nav {
     display: block;
     text-align: center;
@@ -388,6 +396,19 @@ h1, h2, h3, h4, h5, h6 {
   .titulo {
     font-size: 40px;
   }
+  .bio .informacion-producto {
+    margin:  -280px 0 0 10px;
+    width: 25%;
+  }
+  .bio .modelo {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .bio .descripcion {
+    font-size: 20px;
+    width: 90%;
+  }
+
   .productos .modelo {
     font-size: 30px;
   }
